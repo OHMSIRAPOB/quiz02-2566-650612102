@@ -28,6 +28,7 @@ export const Comment = ({
             <span style={{ color: "#E4E6EB" }}>
               {commentText}
             </span>
+            
             {likeNum > 0 && (
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
@@ -37,6 +38,7 @@ export const Comment = ({
         </div>
       </div>
       <div>
+
         {replies.map((props) => (
           <Reply
             userImagePath={props.userImagePath}

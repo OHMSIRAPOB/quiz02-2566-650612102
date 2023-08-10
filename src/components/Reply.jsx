@@ -24,6 +24,7 @@ export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
             <span style={{ color: "#B0B3B8" }}>{likeNum}</span>
           </div>
         )}
+        
       </div>
     </div>
   );
